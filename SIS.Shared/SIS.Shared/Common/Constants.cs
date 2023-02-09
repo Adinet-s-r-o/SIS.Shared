@@ -1,0 +1,94 @@
+﻿using SIS.Shared.Factory;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Reflection;
+using System.Text;
+
+namespace SIS.Shared.Common
+{
+    public static class Constants
+    {
+        static ISettingsFactory settingsFactory = Assembly.GetExecutingAssembly().CreateInstance("SIS.Core.Factory.SettingsLoaderFactory") as ISettingsFactory;
+        public static readonly string Environment = settingsFactory.GetEnvironment();
+        public static readonly string WebUrl = settingsFactory.GetWebUrl();
+        public static readonly string ServerUrl = settingsFactory.GetServerUrl();
+
+        public static class API
+        {
+
+            public const string ApiVersion1 = "v1";
+            public const string ApiVersion2 = "v2";
+
+            public static readonly string ApiUrl = ServerUrl + "api/"; // + ApiVersion1 + "/";
+            public const int DefaultTimeout = 30;
+
+            public const int DefaultPageIndex = 0;
+            public const int DefaultPageSize = 20;
+
+            public static class Urls
+            {
+                //Opatreni		
+                public static readonly string OpatreniList = ApiUrl + "opatreni/list/";
+                public static readonly string OpatreniGetItemById = ApiUrl + "opatreni/get/";
+                public static readonly string OpatreniAdd = ApiUrl + "opatreni/add/";
+                public static readonly string OpatreniDelete = ApiUrl + "opatreni/delete/";
+                public static readonly string OpatreniUpdate = ApiUrl + "opatreni/update/";
+                public static readonly string IsNameUsed = ApiUrl + "opatreni/IsNameUsed";
+                public static readonly string IsPriorityUsed = ApiUrl + "opatreni/IsPriorityUsed";
+
+                //Pumping
+                public static readonly string PumpingList = ApiUrl + "pumpingtest/list/";
+
+                //Plovak
+                public static readonly string PlovakyList = ApiUrl + "plovaky/list/";
+                public static readonly string PlovakyGetItemById = ApiUrl + "plovaky/get/";
+                public static readonly string PlovakyAdd = ApiUrl + "plovaky/add/";
+                public static readonly string PlovakyDelete = ApiUrl + "plovaky/delete/";
+                public static readonly string PlovakyUpdate = ApiUrl + "plovaky/update/";
+
+                //Provozni Parametry
+                public static readonly string ProvozniParametryList = ApiUrl + "provozniParametry/list/";
+                public static readonly string ProvozniParametryGetItemById = ApiUrl + "provozniParametry/get/";
+                public static readonly string ProvozniParametryAdd = ApiUrl + "provozniParametry/add/";
+                public static readonly string ProvozniParametryDelete = ApiUrl + "provozniParametry/delete/";
+                public static readonly string ProvozniParametryUpdate = ApiUrl + "provozniParametry/update/";
+
+                //Redox
+                public static readonly string RedoxList = ApiUrl + "redox/list/";
+                public static readonly string RedoxGetItemById = ApiUrl + "redox/get/";
+                public static readonly string RedoxAdd = ApiUrl + "redox/add/";
+                public static readonly string RedoxDelete = ApiUrl + "redox/delete/";
+                public static readonly string RedoxUpdate = ApiUrl + "redox/update/";
+
+                //HpvFaze
+                public static readonly string HpvFazeList = ApiUrl + "hpvFaze/list/";
+                public static readonly string HpvFazeGetItemById = ApiUrl + "hpvFaze/get/";
+                public static readonly string HpvFazeAdd = ApiUrl + "hpvFaze/add/";
+                public static readonly string HpvFazeDelete = ApiUrl + "hpvFaze/delete/";
+                public static readonly string HpvFazeUpdate = ApiUrl + "hpvFaze/update/";
+
+                public static string GetRedoxAdd(string baseUrl)
+                {
+                    return baseUrl + "api/redox/add/";
+                }
+                public static string GetProvozniParametryAdd(string baseUrl)
+                {
+                    return baseUrl + "api/provozniParametry/add/";
+                }
+                public static string GetPlovakyAdd(string baseUrl)
+                {
+                    return baseUrl + "api/plovaky/add/";
+                }
+                public static string GetHpvFazeAdd(string baseUrl)
+                {
+                    return baseUrl + "api/hpvFaze/add/";
+                }
+
+
+
+            }
+
+        }
+    }
+}

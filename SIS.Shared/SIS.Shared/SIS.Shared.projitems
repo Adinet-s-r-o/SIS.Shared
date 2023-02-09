@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f5477151-43ce-4228-b91f-9573f137b2fd</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SIS.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiContentResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\IApiResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\PlovakDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\PlovakRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\PlovakResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\ProvozniParametryDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\ProvozniParametryRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\ProvozniParametryResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\PumpingRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\PumpingResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\PumpingTestReportDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\RedoxDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\RedoxRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\RedoxResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enum\ErrorType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enum\ExportResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\ApiResponseFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\ISettingsFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IExportable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Managers\HttpManager.cs" />
+  </ItemGroup>
+</Project>
