@@ -15,6 +15,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\IApiResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringRequest.cs" />
