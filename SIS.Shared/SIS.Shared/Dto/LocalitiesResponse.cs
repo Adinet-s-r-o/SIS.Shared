@@ -6,6 +6,6 @@ namespace SIS.Shared.Dto
 {
     public class LocalitiesResponse
     {
-        public string LocalityConnectionString { get; set; } = string.Empty;
+        public string? LocalityConnectionString { get; set; } = string.Empty;
     }
 }
