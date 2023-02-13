@@ -10,9 +10,9 @@ namespace SIS.Shared.Common
     public static class Constants
     {
         static ISettingsFactory settingsFactory = Assembly.GetExecutingAssembly().CreateInstance("SIS.Core.Factory.SettingsLoaderFactory") as ISettingsFactory;
-        public static readonly string Environment = settingsFactory.GetEnvironment();
-        public static readonly string WebUrl = settingsFactory.GetWebUrl();
-        public static readonly string ServerUrl = settingsFactory.GetServerUrl();
+        public static readonly string Environment = settingsFactory == null ? String.Empty : settingsFactory.GetEnvironment();
+        public static readonly string WebUrl = settingsFactory == null ? String.Empty : settingsFactory.GetWebUrl();
+        public static readonly string ServerUrl = settingsFactory == null ? String.Empty : settingsFactory.GetServerUrl();
 
         public static class API
         {
