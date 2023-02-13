@@ -9,6 +9,7 @@ namespace SIS.Shared.Dto
         public int PlovakId { get; set; }
         public string DeleteU { get; set; } = String.Empty;
         public PlovakDto Plovak { get; set; }
+        public string? ObjektName { get; set; }
         public string ConnectionString { get; set; } = String.Empty;
         public PlovakRequest()
         {
