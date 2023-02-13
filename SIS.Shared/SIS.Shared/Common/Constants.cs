@@ -47,6 +47,8 @@ namespace SIS.Shared.Common
                 public static readonly string PlovakyDelete = ApiUrl + "plovaky/delete/";
                 public static readonly string PlovakyUpdate = ApiUrl + "plovaky/update/";
 
+                public static readonly string PlovakyAddMonitoringRelativeUrl = "api/plovaky/addMonitoring/";
+
                 //Provozni Parametry
                 public static readonly string ProvozniParametryList = ApiUrl + "provozniParametry/list/";
                 public static readonly string ProvozniParametryGetItemById = ApiUrl + "provozniParametry/get/";
@@ -54,12 +56,16 @@ namespace SIS.Shared.Common
                 public static readonly string ProvozniParametryDelete = ApiUrl + "provozniParametry/delete/";
                 public static readonly string ProvozniParametryUpdate = ApiUrl + "provozniParametry/update/";
 
+                public static readonly string ProvozniParametryAddMonitoringRelativeUrl = "api/provozniParametry/addMonitoring/";
+
                 //Redox
                 public static readonly string RedoxList = ApiUrl + "redox/list/";
                 public static readonly string RedoxGetItemById = ApiUrl + "redox/get/";
                 public static readonly string RedoxAdd = ApiUrl + "redox/add/";
                 public static readonly string RedoxDelete = ApiUrl + "redox/delete/";
                 public static readonly string RedoxUpdate = ApiUrl + "redox/update/";
+                
+                public static readonly string RedoxAddMonitoringRelativeUrl = "api/redox/addMonitoring/";
 
                 //HpvFaze
                 public static readonly string HpvFazeList = ApiUrl + "hpvFaze/list/";
@@ -68,24 +74,7 @@ namespace SIS.Shared.Common
                 public static readonly string HpvFazeDelete = ApiUrl + "hpvFaze/delete/";
                 public static readonly string HpvFazeUpdate = ApiUrl + "hpvFaze/update/";
 
-                public static string GetRedoxAdd(string baseUrl)
-                {
-                    return baseUrl + "api/redox/add/";
-                }
-                public static string GetProvozniParametryAdd(string baseUrl)
-                {
-                    return baseUrl + "api/provozniParametry/add/";
-                }
-                public static string GetPlovakyAdd(string baseUrl)
-                {
-                    return baseUrl + "api/plovaky/add/";
-                }
-                public static string GetHpvFazeAdd(string baseUrl)
-                {
-                    return baseUrl + "api/hpvFaze/add/";
-                }
-
-
+                public static readonly string HpvFazeAddMonitoringRelativeUrl = "api/hpvFaze/addMonitoring/";
 
             }
 
