@@ -41,7 +41,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Enum\ExportResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Factory\ApiResponseFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Factory\ISettingsFactory.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IExportable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Managers\HttpManager.cs" />
   </ItemGroup>
 </Project>
