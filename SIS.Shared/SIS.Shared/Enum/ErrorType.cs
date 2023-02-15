@@ -38,6 +38,7 @@ namespace SIS.Shared.Enum
         InvalidEntityState,
         EntityAlreadyExists,
         ExceptionThrown,
-        DuplicateValue
+        DuplicateValue,
+        GeneralClientError
     }
 }
