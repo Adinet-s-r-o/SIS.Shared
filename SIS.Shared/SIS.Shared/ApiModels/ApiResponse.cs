@@ -1,53 +1,46 @@
-﻿using System;
+﻿using SIS.Shared.Enum;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using SIS.Shared.Enum;
 
 namespace SIS.Shared.ApiModels
 {
-    
-    public partial class ApiResponse : IApiResponse
+    public enum Severity
     {
-        public ApiResponse() { }
+        Ok = 0,
+        Warning = 1,
+        Error = 2,
+        Fatal = 3
+    };
 
-        public ApiResponse(bool success)
-        {
-            Success = success;
-        }
-
-        public ApiResponse(string errorMessage)
-        {
-            Success = string.IsNullOrEmpty(errorMessage);
-            ErrorMessage = errorMessage;
-            if (Success == false && ErrorType == ErrorType.NotSet)
-                ErrorType = ErrorType.InternalServerError;
-        }
-
-        public ApiResponse(string errorMessage, ErrorType errorType)
-        {
-            Success = string.IsNullOrEmpty(errorMessage);
-            ErrorMessage = errorMessage;
-            ErrorType = errorType;
-        }
-
-        public bool Success { get; set; }
-
-        private string errorMessage;
-
-        public string ErrorMessage
-        {
-            get
-            {
-                return errorMessage;
-            }
-            set
-            {
-                Success = string.IsNullOrEmpty(value);
-                errorMessage = value;
-            }
-        }
+    public class ApiResponse
+    {
+        #region Properties
+        public Severity Level { get; set; }
+        public string ErrorMessage { get; set; }
+        public string SuccessMessage { get; set; }
         public ErrorType ErrorType { get; set; }
 
+        #endregion
 
+        #region C´tor
+        public ApiResponse()
+        {
+            ErrorMessage = "";
+            SuccessMessage = "";
+        }
+        #endregion
+    }
+
+    public sealed class ApiResponse<TResponsePayload> : ApiResponse
+    {
+        public TResponsePayload? Data { get; set; }
+
+        #region C´tor
+        public ApiResponse()
+        {
+            //Data = new TResponsePayload();
+        }
+        #endregion
     }
 }

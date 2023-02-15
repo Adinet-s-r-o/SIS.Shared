@@ -9,10 +9,8 @@
     <Import_RootNamespace>SIS.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiContentResponse.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiResponse.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\IApiResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesRequest.cs" />

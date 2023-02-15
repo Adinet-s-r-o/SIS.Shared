@@ -8,38 +8,38 @@ namespace SIS.Shared.Factory
 {
     public static class ApiResponseFactory
     {
-        public static ApiContentResponse<T> ApiOk<T>(T payload)
+        public static ApiResponse<T> ApiOk<T>(T payload)
         {
-            return new ApiContentResponse<T>() { Data = payload };
+            return new ApiResponse<T>() { Data = payload };
         }
 
-        public static ApiContentResponse<T> ApiOkMessage<T>(T payload, string message)
+        public static ApiResponse<T> ApiOkMessage<T>(T payload, string message)
         {
-            return new ApiContentResponse<T>() { Data = payload, ErrorMessage = message, Level = Severity.Ok };
+            return new ApiResponse<T>() { Data = payload, ErrorMessage = message, Level = Severity.Ok };
         }
 
-        public static ApiContentResponse ApiException(ApiException e)
+        public static ApiResponse ApiException(ApiException e)
         {
-            return new ApiContentResponse() { ErrorMessage = e.Message, Level = e.Level };
+            return new ApiResponse() { ErrorMessage = e.Message, Level = e.Level };
         }
-        public static ApiContentResponse ApiException(ApiException e, ErrorType error)
+        public static ApiResponse ApiException(ApiException e, ErrorType error)
         {
-            return new ApiContentResponse() { ErrorMessage = e.Message, Level = e.Level, ErrorType = error };
-        }
-
-        public static ApiContentResponse<T> ApiException<T>(ApiException e)
-        {
-            return new ApiContentResponse<T>() { ErrorMessage = e.Message, Level = e.Level };
+            return new ApiResponse() { ErrorMessage = e.Message, Level = e.Level, ErrorType = error };
         }
 
-        public static ApiContentResponse ApiFatalException(Exception e)
+        public static ApiResponse<T> ApiException<T>(ApiException e)
         {
-            return new ApiContentResponse() { ErrorMessage = e.Message, Level = Severity.Error };
+            return new ApiResponse<T>() { ErrorMessage = e.Message, Level = e.Level };
         }
 
-        public static ApiContentResponse<T> ApiFatalException<T>(Exception e)
+        public static ApiResponse ApiFatalException(Exception e)
         {
-            return new ApiContentResponse<T>()
+            return new ApiResponse() { ErrorMessage = e.Message, Level = Severity.Error };
+        }
+
+        public static ApiResponse<T> ApiFatalException<T>(Exception e)
+        {
+            return new ApiResponse<T>()
             {
                 ErrorMessage = e.InnerException == null ? e.Message : e.Message + "\n\n" + e.InnerException.Message,
                 Level = Severity.Fatal
