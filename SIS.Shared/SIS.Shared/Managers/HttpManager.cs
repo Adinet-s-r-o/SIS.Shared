@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using SIS.Shared.ApiModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -81,39 +82,4 @@ namespace SIS.Shared.Managers
 
     }
 
-    public enum Severity
-    {
-        Ok = 0,
-        Warning = 1,
-        Error = 2,
-        Fatal = 3
-    };
-
-    public class ApiResponse
-    {
-        #region Properties
-        public Severity Level { get; set; }
-        public string ErrorMessage { get; set; }
-        public string SuccessMessage { get; set; }
-
-        #endregion
-
-        #region C´tor
-        public ApiResponse()
-        {
-            ErrorMessage = "";
-            SuccessMessage = "";
-        }
-        #endregion
-    }
-
-    public sealed class ApiResponse<TResponsePayload> : ApiResponse
-    {
-        public TResponsePayload Data { get; set; }
-
-        public ApiResponse()
-        {
-            // Data = new TResponsePayload();
-        }
-    }
 }
