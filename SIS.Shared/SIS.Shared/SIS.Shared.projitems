@@ -15,9 +15,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesResponse.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringDto.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringResponse.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Dto\MonitoringRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniResponse.cs" />
@@ -36,7 +33,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dto\RedoxRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\RedoxResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Enum\ErrorType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Enum\ExportResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Factory\ApiResponseFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Factory\ISettingsFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Managers\HttpManager.cs" />
