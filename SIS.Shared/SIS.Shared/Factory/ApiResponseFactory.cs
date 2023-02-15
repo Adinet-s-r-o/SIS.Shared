@@ -15,7 +15,7 @@ namespace SIS.Shared.Factory
 
         public static ApiResponse<T> ApiOkMessage<T>(T payload, string message)
         {
-            return new ApiResponse<T>() { Data = payload, ErrorMessage = message, Level = Severity.Ok };
+            return new ApiResponse<T>() { Data = payload, SuccessMessage = message, Level = Severity.Ok };
         }
 
         public static ApiResponse ApiException(ApiException e)
