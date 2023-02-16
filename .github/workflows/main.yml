@@ -1,0 +1,12 @@
+name: Workflow1
+on: push
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a test" > test.txt
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: test.txt
