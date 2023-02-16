@@ -5,7 +5,17 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v2
-        with:
-          name: my-artifact
-      - run: cat test.txt
+    
+    
+  #  Do not specify pr, commit, branch, run_id together or workflow_conclusion and run_id together. Pick just one of each or none.
+
+    - name: Download artifact
+      id: download-artifact
+      uses: dawidd6/action-download-artifact@v2
+      with:
+        workflow: main.yml
+        workflow_conclusion: success
+        branch: main
+        name: my-artifact
+    - run: cat test.txt
+      
