@@ -34,7 +34,7 @@ namespace SIS.Shared.ApiModels
 
     public sealed class ApiResponse<TResponsePayload> : ApiResponse
     {
-        public TResponsePayload? Data { get; set; }
+        public TResponsePayload Data { get; set; }
 
         #region C´tor
         public ApiResponse()
