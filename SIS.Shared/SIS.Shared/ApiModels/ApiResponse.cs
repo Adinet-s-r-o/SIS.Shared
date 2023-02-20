@@ -10,7 +10,8 @@ namespace SIS.Shared.ApiModels
         Ok = 0,
         Warning = 1,
         Error = 2,
-        Fatal = 3
+        Fatal = 3,
+        Information = 4
     };
 
     public class ApiResponse
