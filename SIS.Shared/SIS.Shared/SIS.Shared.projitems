@@ -12,6 +12,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesResponse.cs" />
