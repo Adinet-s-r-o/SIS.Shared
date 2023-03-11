@@ -11,7 +11,7 @@ namespace SIS.Shared.Dto
         public string ObjektName { get; set; } = String.Empty;
         public List<int?>? ObjectIds { get; set; }
         public int ObjectId { get; set; }
-        public int RecordCnt { get; set; }
+        public int? RecordCnt { get; set; }
         public DateTime? DateFrom { get; set; } 
         public DateTime? DateTo { get; set; } 
         public BioSensorDto BioSensor { get; set; }
