@@ -79,6 +79,10 @@ namespace SIS.Shared.Common
                 //HpvFaze
                 public static readonly string BiosensoryList = ApiUrl + "biosensory/list/";
                 public static readonly string BiosensoryGetItemById = ApiUrl + "biosensory/get/";
+                public static readonly string BiosensoryGetByObjectId = ApiUrl + "biosensory/getByObjectId/";
+                public static readonly string BiosensoryGetByObjectIdAndRecordCnt = ApiUrl + "biosensory/getByObjectIdAndRecordCnt/";
+                public static readonly string BiosensoryGetByObjectIdAndFromToDate = ApiUrl + "biosensory/getByObjectIdAndFromToDate/";
+                public static readonly string BiosensoryGetByMultipleObjectIdAndFromToDate = ApiUrl + "biosensory/getByMultipleObjectIdAndFromToDate/";
                 public static readonly string BiosensoryAdd = ApiUrl + "biosensory/add/";
                 public static readonly string BiosensoryDelete = ApiUrl + "biosensory/delete/";
                 public static readonly string BiosensoryUpdate = ApiUrl + "biosensory/update/";
