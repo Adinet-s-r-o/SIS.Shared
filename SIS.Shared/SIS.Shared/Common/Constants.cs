@@ -87,7 +87,7 @@ namespace SIS.Shared.Common
                 public static readonly string BiosensoryAdd = ApiUrl + "biosensory/add/";
                 public static readonly string BiosensoryDelete = ApiUrl + "biosensory/delete/";
                 public static readonly string BiosensoryUpdate = ApiUrl + "biosensory/update/";
-                public static readonly string BiosensoryExistsForObjects = ApiUrl + "biosensory/existsForObject/";
+                public static readonly string BiosensoryExistsForObjects = ApiUrl + "biosensory/existsForObjects/";
                 public static readonly string BiosensoryAddMonitoringRelativeUrl = "api/biosensory/addMonitoring/";
 
             }
