@@ -10,7 +10,8 @@ namespace SIS.Shared.ApiModels
         Ok = 0,
         Warning = 1,
         Error = 2,
-        Fatal = 3
+        Fatal = 3,
+        Information = 4
     };
 
     public class ApiResponse
@@ -34,7 +35,7 @@ namespace SIS.Shared.ApiModels
 
     public sealed class ApiResponse<TResponsePayload> : ApiResponse
     {
-        public TResponsePayload? Data { get; set; }
+        public TResponsePayload Data { get; set; }
 
         #region C´tor
         public ApiResponse()
