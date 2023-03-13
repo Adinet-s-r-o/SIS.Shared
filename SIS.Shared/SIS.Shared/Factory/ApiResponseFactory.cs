@@ -17,6 +17,10 @@ namespace SIS.Shared.Factory
         {
             return new ApiResponse<T>() { Data = payload, SuccessMessage = message, Level = Severity.Ok };
         }
+        public static ApiResponse<T> ApiWarningMessage<T>(T payload, ErrorType errorType, string message)
+        {
+            return new ApiResponse<T>() { Data = payload, ErrorType = errorType, SuccessMessage = message, Level = Severity.Warning };
+        }
 
         public static ApiResponse ApiException(ApiException e)
         {
