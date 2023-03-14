@@ -39,6 +39,7 @@ namespace SIS.Shared.Enum
         EntityAlreadyExists,
         ExceptionThrown,
         DuplicateValue,
-        GeneralSisError
+        GeneralSisError,
+        ObjectNotFound
     }
 }
