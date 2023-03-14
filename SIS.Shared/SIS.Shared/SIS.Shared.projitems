@@ -16,8 +16,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\HpvFazeDto.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesRequest.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalitiesResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalityRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalityResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\LocalityDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\OpatreniResponse.cs" />
