@@ -14,7 +14,7 @@ namespace SIS.Shared.Managers
     {
         HttpClient httpClient;
 
-        public HttpManager(string? apiKey = null)
+        public HttpManager(string apiKey = null)
         {
             httpClient = new HttpClient();
 
@@ -22,6 +22,9 @@ namespace SIS.Shared.Managers
             httpClient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
             if (apiKey != null)
                 httpClient.DefaultRequestHeaders.Add("ApiKey", apiKey);
+            else
+                httpClient.DefaultRequestHeaders.Add("ApiKey", "Isonsoft1234");
+
         }
 
         public async Task<ApiResponse<TResponse>> Post<TRequest, TResponse>(string url, TRequest request)
