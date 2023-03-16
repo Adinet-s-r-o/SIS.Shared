@@ -9,6 +9,7 @@ namespace SIS.Shared.Dto
     {
         public List<ProvozniParametryDto> Data { get; set; }
         public int ProvozniParametryId { get; set; }
+        public bool ExistsForObjects { get; set; }
         public bool DeleteProvozniParametry{ get; set; }
         public ProvozniParametryResponse()
         {
