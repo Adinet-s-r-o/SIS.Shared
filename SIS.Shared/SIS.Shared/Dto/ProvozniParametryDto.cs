@@ -21,5 +21,10 @@ namespace SIS.Shared.Dto
         public string? ModifU { get; set; }
         public DateTime? DeleteD { get; set; }
         public string? DeleteU { get; set; }
+
+
+        public double? DISPLAY_prutok { get; set; }
+        public double? DISPLAY_mnozstvi_davkovaneho_koagulantu { get; set; }
+        public double? DISPLAY_mnozstvi_spotrebovaneho_koagulantu { get; set; }
     }
 }
