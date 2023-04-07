@@ -57,6 +57,7 @@ namespace SIS.Shared.Common
                 public static readonly string ProvozniParametryUpdate = ApiUrl + "provozniParametry/update/";
                 public static readonly string ProvozniParametryExistsForObjects = ApiUrl + "provozniParametry/existsForObjects/";
                 public static readonly string ProvozniParametryGetByObjectIds = ApiUrl + "provozniParametry/getByObjektIds/";
+                public static readonly string ProvozniParametryGetXYoungestByObjectId = ApiUrl + "provozniParametry/getXYougestByObjektIds/";
 
                 public static readonly string ProvozniParametryAddMonitoringRelativeUrl = "api/provozniParametry/addMonitoring/";
 
