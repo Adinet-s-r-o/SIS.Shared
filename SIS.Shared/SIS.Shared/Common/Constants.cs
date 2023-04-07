@@ -86,7 +86,7 @@ namespace SIS.Shared.Common
                 //public static readonly string BiosensoryGet1000ByObjectIdAndFromToDate = ApiUrl + "biosensory/get1000ByObjectIdAndFromToDate/";
                 //public static readonly string BiosensoryGetByMultipleObjectIdAndFromToDate = ApiUrl + "biosensory/getByMultipleObjectIdAndFromToDate/";
                 public static readonly string BiosensoryGetByObjectIds = ApiUrl + "biosensory/getByObjektIds/";
-                public static readonly string BiosensoryGetXYoungestByObjectIds = ApiUrl + "biosensory/getXYougestByObjektIds/";
+                public static readonly string BiosensoryGetXYoungestByObjectId = ApiUrl + "biosensory/getXYougestByObjektIds/";
                 public static readonly string BiosensoryAdd = ApiUrl + "biosensory/add/";
                 public static readonly string BiosensoryDelete = ApiUrl + "biosensory/delete/";
                 public static readonly string BiosensoryUpdate = ApiUrl + "biosensory/update/";
