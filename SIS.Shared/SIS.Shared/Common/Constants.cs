@@ -67,7 +67,8 @@ namespace SIS.Shared.Common
                 public static readonly string RedoxAdd = ApiUrl + "redox/add/";
                 public static readonly string RedoxDelete = ApiUrl + "redox/delete/";
                 public static readonly string RedoxUpdate = ApiUrl + "redox/update/";
-                
+                public static readonly string RedoxExistsForObjects = ApiUrl + "redox/existsForObjects/";
+
                 public static readonly string RedoxAddMonitoringRelativeUrl = "api/redox/addMonitoring/";
 
                 //HpvFaze

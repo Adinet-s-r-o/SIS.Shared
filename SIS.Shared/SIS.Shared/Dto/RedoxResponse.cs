@@ -9,6 +9,7 @@ namespace SIS.Shared.Dto
     {
         public List<RedoxDto> Data { get; set; }
         public int RedoxId { get; set; }
+        public bool ExistsForObjects { get; set; }
         public bool DeleteRedox { get; set; }
         public RedoxResponse()
         {
