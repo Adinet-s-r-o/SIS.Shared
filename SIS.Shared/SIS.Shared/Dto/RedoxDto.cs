@@ -14,9 +14,15 @@ namespace SIS.Shared.Dto
         public double? Ph { get; set; }
         public double? O2 { get; set; }
         public double? Eh { get; set; }
+        public double? EhCalculated { get; set; }
         public double? Konduktivita { get; set; }
         public string? Barva { get; set; }
         public string? Pach { get; set; }
+        public string? TypOdberu { get; set; }
+        public string? Realizace { get; set; }
+        public double? ElektrickyPotencial { get; set; }
+        public double? ElektrickyProud { get; set; }
+        public double? Vodivost { get; set; }
         public string? Poznamka { get; set; }
         public DateTime? NewD { get; set; }
         public string? NewU { get; set; }
@@ -24,11 +30,6 @@ namespace SIS.Shared.Dto
         public string? ModifU { get; set; }
         public DateTime? DeleteD { get; set; }
         public string? DeleteU { get; set; }
-        public string? TypOdberu { get; set; }
-        public string? Realizace { get; set; }
-        public double? ElektrickyPotencial { get; set; }
-        public double? ElektrickyProud { get; set; }
-        public double? Vodivost { get; set; }
 
     }
 }

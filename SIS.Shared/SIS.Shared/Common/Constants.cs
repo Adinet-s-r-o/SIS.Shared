@@ -65,11 +65,17 @@ namespace SIS.Shared.Common
                 public static readonly string RedoxList = ApiUrl + "redox/list/";
                 public static readonly string RedoxGetItemById = ApiUrl + "redox/get/";
                 public static readonly string RedoxAdd = ApiUrl + "redox/add/";
+                public static readonly string RedoxAddMonitoringRelativeUrl = "api/redox/addMonitoring/";
                 public static readonly string RedoxDelete = ApiUrl + "redox/delete/";
                 public static readonly string RedoxUpdate = ApiUrl + "redox/update/";
                 public static readonly string RedoxExistsForObjects = ApiUrl + "redox/existsForObjects/";
+                public static readonly string RedoxGetByObjectId = ApiUrl + "redox/getByObjectId/";
+                public static readonly string RedoxGetByObjectIdYoungest = ApiUrl + "redox/getByObjectIdYoungest/";
+                public static readonly string RedoxGetByObjectIdDateDistributed = ApiUrl + "redox/getByObjectIdDateDistributed/";
+                public static readonly string RedoxGetByMultipleObjectIds = ApiUrl + "redox/getByMultipleObjectIds/";
+                public static readonly string RedoxGetElectricPotential = ApiUrl + "redox/getElectricPotential/";
+                public static readonly string RedoxGetDistinctRedoxMeasuredDateByObjectIdsForElPotencial = ApiUrl + "redox/getDistinctRedoxMeasuredDateByObjectIdsForElPotencial/";
 
-                public static readonly string RedoxAddMonitoringRelativeUrl = "api/redox/addMonitoring/";
 
                 //HpvFaze
                 public static readonly string HpvFazeList = ApiUrl + "hpvFaze/list/";
