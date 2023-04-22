@@ -36,6 +36,14 @@ namespace SIS.Shared.Common
                 public static readonly string OpatreniUpdate = ApiUrl + "opatreni/update/";
                 public static readonly string IsNameUsed = ApiUrl + "opatreni/IsNameUsed";
                 public static readonly string IsPriorityUsed = ApiUrl + "opatreni/IsPriorityUsed";
+                
+                //Kampane
+                public static readonly string KampaneList = ApiUrl + "kampane/list/";
+                public static readonly string KampaneGetItemById = ApiUrl + "kampane/get/";
+                public static readonly string KampaneAdd = ApiUrl + "kampane/add/";
+                public static readonly string KampaneDelete = ApiUrl + "kampane/delete/";
+                public static readonly string KampaneUpdate = ApiUrl + "kampane/update/";
+                public static readonly string KampaneIsPriorityUsed = ApiUrl + "kampane/IsPriorityUsed";
 
                 //Pumping
                 public static readonly string PumpingList = ApiUrl + "pumpingtest/list/";
