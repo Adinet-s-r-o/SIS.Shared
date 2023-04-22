@@ -43,7 +43,7 @@ namespace SIS.Shared.Common
                 public static readonly string KampaneAdd = ApiUrl + "kampane/add/";
                 public static readonly string KampaneDelete = ApiUrl + "kampane/delete/";
                 public static readonly string KampaneUpdate = ApiUrl + "kampane/update/";
-                public static readonly string KampaneIsPriorityUsed = ApiUrl + "kampane/IsPriorityUsed";
+                public static readonly string KampaneIsNameUsed = ApiUrl + "kampane/IsNameUsed";
 
                 //Pumping
                 public static readonly string PumpingList = ApiUrl + "pumpingtest/list/";
