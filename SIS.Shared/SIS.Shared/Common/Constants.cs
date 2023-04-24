@@ -92,6 +92,7 @@ namespace SIS.Shared.Common
                 public static readonly string HpvFazeDelete = ApiUrl + "hpvFaze/delete/";
                 public static readonly string HpvFazeUpdate = ApiUrl + "hpvFaze/update/";
                 public static readonly string HpvFazeGetByObjektIdAndMereno = ApiUrl + "hpvFaze/getByObjektIdAndMereno/";
+                public static readonly string HpvFazeGetByMultipleObjektIdsAndDates = ApiUrl + "hpvFaze/getByMultipleObjektIdsAndDates/";
 
                 public static readonly string HpvFazeAddMonitoringRelativeUrl = "api/hpvFaze/addMonitoring/";
                 
