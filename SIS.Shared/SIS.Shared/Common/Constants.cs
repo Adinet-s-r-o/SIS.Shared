@@ -109,6 +109,14 @@ namespace SIS.Shared.Common
                 public static readonly string BiosensoryExistsForObjects = ApiUrl + "biosensory/existsForObjects/";
                 public static readonly string BiosensoryAddMonitoringRelativeUrl = "api/biosensory/addMonitoring/";
 
+                // Cerpani
+                public static readonly string CerpaniList = ApiUrl + "cerpani/list/";
+                public static readonly string CerpaniGetItemById = ApiUrl + "cerpani/get/";
+                public static readonly string CerpaniAdd = ApiUrl + "cerpani/add/";
+                public static readonly string CerpaniDelete = ApiUrl + "cerpani/delete/";
+                public static readonly string CerpaniUpdate = ApiUrl + "cerpani/update/";
+                public static readonly string CerpaniGetByObjectId = ApiUrl + "cerpani/getByObjektId/";
+
             }
 
         }
