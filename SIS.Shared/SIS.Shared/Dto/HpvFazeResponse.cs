@@ -9,6 +9,7 @@ namespace SIS.Shared.Dto
     {
         public List<HpvFazeDto> Data { get; set; }
         public int HpvId { get; set; }
+        public bool ExistsForObjects { get; set; }
         public bool DeleteHpv { get; set; }
         public HpvFazeResponse() 
         {
