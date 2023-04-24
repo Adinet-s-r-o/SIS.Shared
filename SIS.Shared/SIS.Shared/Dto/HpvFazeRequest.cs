@@ -10,6 +10,8 @@ namespace SIS.Shared.Dto
         public string DeleteU { get; set; } = String.Empty;
         public HpvFazeDto Hpv { get; set; }
         public string? ObjektName { get; set; }
+        public int ObjektId { get; set; }
+        public DateTime? Mereno { get; set; }
         public string ConnectionString { get; set; } = String.Empty;
         public HpvFazeRequest()
         {
