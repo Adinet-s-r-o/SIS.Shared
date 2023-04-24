@@ -12,8 +12,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\KampanDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\KampanRequest.cs" />
