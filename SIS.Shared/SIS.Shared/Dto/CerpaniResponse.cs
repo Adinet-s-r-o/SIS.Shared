@@ -8,6 +8,7 @@ namespace SIS.Shared.Dto
     {
         public List<CerpaniDto> Data { get; set; }
         public int CerpaniId { get; set; }
+        public bool ExistsForObjects { get; set; }
         public bool DeleteCerpani { get; set; }
         public CerpaniResponse()
         {
