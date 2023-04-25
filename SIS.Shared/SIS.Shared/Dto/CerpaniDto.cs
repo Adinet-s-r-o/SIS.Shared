@@ -44,7 +44,7 @@ namespace SIS.Shared.Dto
         public string? Fotodokumentace { get; set; }
         public string? Kolektor { get; set; }
         public double? VzdalenostOb { get; set; }
-        public HpvFazeDto? HpvFaze { get; set; }
+        public double? Hpv { get; set; }
         public string? NewU { get; set; }
         public DateTime? NewD { get; set; }
         public string? ModifU { get; set; }
