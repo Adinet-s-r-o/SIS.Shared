@@ -10,7 +10,7 @@ namespace SIS.Shared.Dto
             public DateTime? Mereno { get; set; }
             public double? HladinaVoda { get; set; }
             public double? HladinaFaze { get; set; }
-            public double? MocnostFaze { get => HladinaVoda - HladinaFaze; }
+            public double? MocnostFaze { get => HladinaVoda.HasValue && HladinaFaze.HasValue ? Math.Round(HladinaVoda.Value - HladinaFaze.Value) : HladinaVoda - HladinaFaze; }
             public string? Realizace { get; set; }
             public string? Poznamka { get; set; }
             public DateTime? NewD { get; set; }
