@@ -8,6 +8,7 @@ namespace SIS.Shared.Dto
     {
         public int CerpaniId { get; set; }
         public int ObjektId { get; set; }
+        public int PocetDni { get; set; }
         public List<int?> ObjektIds { get; set; } = new List<int?>();
         public DateTime? Mereno { get; set; }
         public DateTime? DateFrom { get; set; }

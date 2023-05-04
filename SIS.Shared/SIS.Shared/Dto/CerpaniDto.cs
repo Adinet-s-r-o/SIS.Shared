@@ -9,7 +9,6 @@ namespace SIS.Shared.Dto
     {
         public int CerpaniId { get; set; }
         public int? ObjektId { get; set; }
-        public int? KampanId { get; set; }
         public string? Typ { get; set; }
         public DateTime? Mereno { get; set; }
         public double? StavMeridla { get; set; }
@@ -44,7 +43,11 @@ namespace SIS.Shared.Dto
         public string? Fotodokumentace { get; set; }
         public string? Kolektor { get; set; }
         public double? VzdalenostOb { get; set; }
+
+        #region NON_MODEL_ATTRIBUTES
         public double? HladinaVoda { get; set; }
+        public string? Kampan { get; set; }
+        #endregion
         public string? NewU { get; set; }
         public DateTime? NewD { get; set; }
         public string? ModifU { get; set; }
