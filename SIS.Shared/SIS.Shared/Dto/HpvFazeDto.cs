@@ -13,6 +13,7 @@ namespace SIS.Shared.Dto
             public double? MocnostFaze { get => HladinaVoda.HasValue && HladinaFaze.HasValue ? Math.Round(HladinaVoda.Value - HladinaFaze.Value) : HladinaVoda - HladinaFaze; }
             public string? Realizace { get; set; }
             public string? Poznamka { get; set; }
+            public string? Kampan { get; set; }
             public DateTime? NewD { get; set; }
             public string? NewU { get; set; }
             public DateTime? ModifD { get; set; }
