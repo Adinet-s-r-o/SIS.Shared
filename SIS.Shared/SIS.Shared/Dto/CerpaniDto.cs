@@ -8,6 +8,7 @@ namespace SIS.Shared.Dto
     {
         public int CerpaniId { get; set; }
         public int? ObjektId { get; set; }
+        public int? KampanId { get; set; }
         public string? Typ { get; set; }
         public DateTime? Mereno { get; set; }
         public double? StavMeridla { get; set; }
