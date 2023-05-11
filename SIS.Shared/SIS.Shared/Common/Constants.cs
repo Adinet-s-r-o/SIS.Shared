@@ -137,6 +137,8 @@ namespace SIS.Shared.Common
 
                 public static readonly string ObjektValuationGetYoungestHpvFazeByMerenoAndPocetDniZpet = ApiUrl + "objektValuation/getYoungestHpvFazeByMerenoAndPocetDniZpet/";
                 public static readonly string ObjektValuationGetYoungestHpvFazeByKampan = ApiUrl + "objektValuation/getYoungestHpvFazeByKampan/";
+                public static readonly string ObjektValuationGetYoungestCerpaniEndByObjekt = ApiUrl + "objektValuation/getYoungestCerpaniEndByObjekt/";
+                public static readonly string ObjektValuationGetYoungestCerpaniEndByObjektAndKampan = ApiUrl + "objektValuation/getYoungestCerpaniEndByObjektAndKampan/";
 
             }
 

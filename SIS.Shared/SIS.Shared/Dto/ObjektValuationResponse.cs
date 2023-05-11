@@ -8,5 +8,6 @@ namespace SIS.Shared.Dto
     public class ObjektValuationResponse
     {
         public double? HladinaVoda { get; set; }
+        public CerpaniDto? Cerpani { get; set; }
     }
 }
