@@ -11,6 +11,7 @@ namespace SIS.Shared.Dto
         public HpvFazeDto Hpv { get; set; }
         public string? ObjektName { get; set; }
         public int ObjektId { get; set; }
+        public int KampanId { get; set; }
         public List<int?> ObjektIds { get; set; } = new List<int?>();
         public DateTime? Mereno { get; set; }
         public DateTime? DateFrom { get; set; }

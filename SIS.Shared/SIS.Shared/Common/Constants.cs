@@ -95,6 +95,7 @@ namespace SIS.Shared.Common
                 public static readonly string HpvFazeListByObjektId = ApiUrl + "hpvFaze/getListByObjektId/";
                 public static readonly string HpvFazeGetByMultipleObjektIdsAndDates = ApiUrl + "hpvFaze/getByMultipleObjektIdsAndDates/";
                 public static readonly string HpvFazeExistsForObjects = ApiUrl + "hpvFaze/existsForObjects/";
+                public static readonly string HpvFazeGetYoungestRecordByKampan  = ApiUrl + "hpvFaze/getYoungestRecordByKampan/";
 
                 public static readonly string HpvFazeAddMonitoringRelativeUrl = "api/hpvFaze/addMonitoring/";
                 
@@ -124,6 +125,7 @@ namespace SIS.Shared.Common
                 public static readonly string CerpaniGetByMultipleObjektIdsAndDates = ApiUrl + "cerpani/getByMultipleObjektIdsAndDates/";
                 public static readonly string CerpaniExistsForObjects = ApiUrl + "cerpani/existsForObjects/";
                 public static readonly string CerpaniExistsForObjectsBetweenDates = ApiUrl + "cerpani/existsForObjectsBetweenDates/";
+                public static readonly string CerpaniGetCerpaniByMultipleObjektIdsAndCampaign = ApiUrl + "cerpani/getCerpaniByMultipleObjektIdsAndCampaign/";
 
             }
 
