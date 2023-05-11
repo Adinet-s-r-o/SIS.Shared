@@ -127,6 +127,10 @@ namespace SIS.Shared.Common
                 public static readonly string CerpaniExistsForObjectsBetweenDates = ApiUrl + "cerpani/existsForObjectsBetweenDates/";
                 public static readonly string CerpaniGetByMultipleObjektIdsAndCampaign = ApiUrl + "cerpani/getByMultipleObjektIdsAndCampaign/";
 
+
+                // kriteria
+
+                public static readonly string KriteriaGetByVelicinaAndObjektId = ApiUrl + "kriteria/getByVelicinaAndObjektId/";
             }
 
         }
