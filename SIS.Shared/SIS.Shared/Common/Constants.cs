@@ -131,6 +131,13 @@ namespace SIS.Shared.Common
                 // kriteria
 
                 public static readonly string KriteriaGetByVelicinaAndObjektId = ApiUrl + "kriteria/getByVelicinaAndObjektId/";
+
+
+                // objekt valuation
+
+                public static readonly string ObjektValuationGetYoungestHpvFazeByMerenoAndPocetDniZpet = ApiUrl + "objektValuation/getYoungestHpvFazeByMerenoAndPocetDniZpet/";
+                public static readonly string ObjektValuationGetYoungestHpvFazeByKampan = ApiUrl + "objektValuation/getYoungestHpvFazeByKampan/";
+
             }
 
         }
