@@ -11,5 +11,6 @@ namespace SIS.Shared.Dto
         public DateTime KeDni { get; set; }
         public int PocetDni { get; set; }
         public string ConnectionString { get; set; } = String.Empty;
+        public DateTime Mereno { get; set; }
     }
 }
