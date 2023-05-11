@@ -140,6 +140,7 @@ namespace SIS.Shared.Common
                 public static readonly string ObjektValuationGetYoungestCerpaniEndByObjekt = ApiUrl + "objektValuation/getYoungestCerpaniEndByObjekt/";
                 public static readonly string ObjektValuationGetYoungestCerpaniEndByObjektAndKampan = ApiUrl + "objektValuation/getYoungestCerpaniEndByObjektAndKampan/";
                 public static readonly string ObjektValuationGetCerpaniLastRecord = ApiUrl + "objektValuation/getCerpaniLastRecord/";
+                public static readonly string ObjektValuationGetRelevantCerpaniStart = ApiUrl + "objektValuation/getRelevantCerpaniStart/";
 
             }
 
