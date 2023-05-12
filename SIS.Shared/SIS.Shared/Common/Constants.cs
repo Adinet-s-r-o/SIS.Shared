@@ -125,6 +125,7 @@ namespace SIS.Shared.Common
                 public static readonly string CerpaniGetByMultipleObjektIdsAndDates = ApiUrl + "cerpani/getByMultipleObjektIdsAndDates/";
                 public static readonly string CerpaniExistsForObjects = ApiUrl + "cerpani/existsForObjects/";
                 public static readonly string CerpaniExistsForObjectsBetweenDates = ApiUrl + "cerpani/existsForObjectsBetweenDates/";
+                public static readonly string CerpaniExistsForObjectsAndKampan = ApiUrl + "cerpani/existsForObjectsAndKampan/";
                 public static readonly string CerpaniGetByMultipleObjektIdsAndCampaign = ApiUrl + "cerpani/getByMultipleObjektIdsAndCampaign/";
 
 
