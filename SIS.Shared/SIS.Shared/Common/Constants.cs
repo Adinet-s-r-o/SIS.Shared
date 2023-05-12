@@ -47,6 +47,7 @@ namespace SIS.Shared.Common
 
                 //Pumping
                 public static readonly string PumpingList = ApiUrl + "pumpingtest/list/";
+                public static readonly string PumpingListByKampane = ApiUrl + "pumpingtest/listByKampane/";
 
                 //Plovak
                 public static readonly string PlovakyList = ApiUrl + "plovaky/list/";

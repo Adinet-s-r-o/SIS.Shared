@@ -10,5 +10,6 @@ namespace SIS.Shared.Dto
         public DateTime? PumpingFrom { get; set; }
         public DateTime? PumpingTo { get; set; }
         public string WellsObjects { get; set; } = String.Empty;
+        public string Kampane { get; set; } = String.Empty;
     }
 }
