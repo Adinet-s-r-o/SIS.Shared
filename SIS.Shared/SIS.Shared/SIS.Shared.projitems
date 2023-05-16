@@ -18,6 +18,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\SimpleObjektDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektValuationRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektValuationResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\KriteriumDto.cs" />

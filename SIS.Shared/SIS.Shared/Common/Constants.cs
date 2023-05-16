@@ -28,6 +28,10 @@ namespace SIS.Shared.Common
 
             public static class Urls
             {
+                //Objekt
+                public static readonly string ObjektyListSimple = ApiUrl + "objekty/listSimple/";
+
+
                 //Opatreni		
                 public static readonly string OpatreniList = ApiUrl + "opatreni/list/";
                 public static readonly string OpatreniGetItemById = ApiUrl + "opatreni/get/";
@@ -122,6 +126,7 @@ namespace SIS.Shared.Common
                 public static readonly string CerpaniDelete = ApiUrl + "cerpani/delete/";
                 public static readonly string CerpaniUpdate = ApiUrl + "cerpani/update/";
                 public static readonly string CerpaniGetByObjectId = ApiUrl + "cerpani/getByObjektId/";
+                public static readonly string CerpaniGetByObjektIdWithCalculatedValues = ApiUrl + "cerpani/getByObjektIdWithCalculatedValues/";
                 public static readonly string CerpaniGetByObjectIdAndMereno = ApiUrl + "cerpani/getByObjektIdAndMereno/";
                 public static readonly string CerpaniGetByMultipleObjektIdsAndDates = ApiUrl + "cerpani/getByMultipleObjektIdsAndDates/";
                 public static readonly string CerpaniExistsForObjects = ApiUrl + "cerpani/existsForObjects/";
