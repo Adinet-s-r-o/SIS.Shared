@@ -8,6 +8,7 @@ namespace SIS.Shared.Dto
     {
         public int ObjektId { get; set; }
         public int KampanId { get; set; }
+        public List<int?> KampanIds { get; set; }
         public DateTime KeDni { get; set; }
         public int PocetDni { get; set; }
         public string ConnectionString { get; set; } = String.Empty;
