@@ -10,6 +10,8 @@ namespace SIS.Shared.Dto
         public string DeleteU { get; set; } = String.Empty;
         public KampanDto Kampan { get; set; }
         public string ConnectionString { get; set; } = String.Empty;
+        public string Nazev { get; set; } = String.Empty;
+
         public KampanRequest()
         {
             Kampan = new KampanDto();
