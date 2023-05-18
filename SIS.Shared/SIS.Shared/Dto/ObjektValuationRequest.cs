@@ -13,5 +13,10 @@ namespace SIS.Shared.Dto
         public int PocetDni { get; set; }
         public string ConnectionString { get; set; } = String.Empty;
         public DateTime Mereno { get; set; }
+        
+        public ObjektValuationRequest() 
+        {
+            KampanIds = new List<int?>();
+        }
     }
 }
