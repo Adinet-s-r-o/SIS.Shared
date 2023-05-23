@@ -152,6 +152,15 @@ namespace SIS.Shared.Common
                 public static readonly string ObjektValuationGetStaticWaterLevelFromYoungestHpvFaze = ApiUrl + "objektValuation/getStaticWaterLevelFromYoungestHpvFaze/";
                 public static readonly string ObjektValuationGetStaticWaterLevelFromYoungestHpvFazeByKampan = ApiUrl + "objektValuation/getStaticWaterLevelFromYoungestHpvFazeByKampan/";
 
+
+
+                // FyzChemMega
+                public static readonly string FyzChemMegaList = ApiUrl + "fyzChemMega/list/";
+                public static readonly string FyzChemMegaGetItemById = ApiUrl + "fyzChemMega/get/";
+                public static readonly string FyzChemMegaAdd = ApiUrl + "fyzChemMega/add/";
+                public static readonly string FyzChemMegaDelete = ApiUrl + "fyzChemMega/delete/";
+                public static readonly string FyzChemMegaUpdate = ApiUrl + "fyzChemMega/update/";
+                public static readonly string FyzChemMegaGetByObjectId = ApiUrl + "fyzChemMega/getByObjektId/";
             }
 
         }
