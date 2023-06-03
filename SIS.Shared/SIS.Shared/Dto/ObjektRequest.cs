@@ -6,6 +6,7 @@ namespace SIS.Shared.Dto
 {
     public class ObjektRequest
     {
+        public string ObjektName { get; set; } = String.Empty;
         public string ConnectionString { get; set; } = String.Empty;
     }
 }

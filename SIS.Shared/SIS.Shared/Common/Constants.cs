@@ -30,6 +30,7 @@ namespace SIS.Shared.Common
             {
                 //Objekt
                 public static readonly string ObjektyListSimple = ApiUrl + "objekty/listSimple/";
+                public static readonly string ObjektyGetObjektId = ApiUrl + "objekty/getObjektId/";
 
 
                 //Opatreni		
