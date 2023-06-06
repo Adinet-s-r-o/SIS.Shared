@@ -13,6 +13,7 @@ namespace SIS.Shared.Dto
         public int ObjektId { get; set; }
         public int KampanId { get; set; }
         public List<int?> ObjektIds { get; set; } = new List<int?>();
+        public List<int?> KampanIds { get; set; } = new List<int?>();
         public DateTime? Mereno { get; set; }
         public DateTime? DateFrom { get; set; }
         public DateTime? DateTo { get; set; }
