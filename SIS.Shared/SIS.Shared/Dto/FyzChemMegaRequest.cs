@@ -9,6 +9,7 @@ namespace SIS.Shared.Dto
         public int FyzChemMegaId { get; set; }
         public int ObjektId { get; set; }
         public List<int> ObjektIds { get; set; }
+        public List<DateTime> Dates { get; set; }
         public string DeleteU { get; set; } = String.Empty;
         public FyzChemMegaDto FyzChemMega { get; set; }
         public List<FyzChemMegaDto> FyzChemMegaList { get; set; }
@@ -19,6 +20,7 @@ namespace SIS.Shared.Dto
             FyzChemMega = new FyzChemMegaDto();
             FyzChemMegaList = new List<FyzChemMegaDto>();
             ObjektIds = new List<int>();
+            Dates = new List<DateTime>();
         }
     }
 }
