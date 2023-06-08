@@ -21,6 +21,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dto\FyzChemMegaResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dto\ObjektDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\SimpleObjektDto.cs" />
