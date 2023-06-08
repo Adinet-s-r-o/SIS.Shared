@@ -164,6 +164,8 @@ namespace SIS.Shared.Common
                 public static readonly string FyzChemMegaUpdate = ApiUrl + "fyzChemMega/update/";
                 public static readonly string FyzChemMegaGetByObjectId = ApiUrl + "fyzChemMega/getByObjektId/";
                 public static readonly string FyzChemMegaAddList = ApiUrl + "fyzChemMega/addList/";
+                public static readonly string FyzChemMegaGetObjektList = ApiUrl + "fyzChemMega/getObjektList/";
+                public static readonly string FyzChemMegaGetAvailableDates = ApiUrl + "fyzChemMega/getAvailableDates/";
             }
 
         }
