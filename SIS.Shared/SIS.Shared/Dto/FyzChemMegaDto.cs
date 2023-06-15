@@ -8,6 +8,7 @@ namespace SIS.Shared.Dto
     {
         public int FyzChemMegaId { get; set; }
         public int? ObjektId { get; set; }
+        public string? ObjektName { get; set; }
         public DateTime? Mereno { get; set; }
         public double? Hloubka { get; set; }
         public double? TeplotaPh { get; set; }
