@@ -15,6 +15,7 @@ namespace SIS.Shared.Dto
         public bool HasPlovaky { get; set; }
         public bool HasPlovakyFyzChem { get; set; }
         public bool HasBiosensory { get; set; }
+        public bool HasFyzChemMega { get; set; }
     }
 }
 
