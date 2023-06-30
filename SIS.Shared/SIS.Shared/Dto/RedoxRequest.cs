@@ -21,7 +21,7 @@ namespace SIS.Shared.Dto
         public RedoxRequest() 
         {
             Redox = new RedoxDto();
-            ObjectIds = new List<int>();
+            ObjectIds = new List<int?>();
         }
     }
 }
