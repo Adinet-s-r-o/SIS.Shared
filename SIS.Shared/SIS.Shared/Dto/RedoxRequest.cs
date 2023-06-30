@@ -10,7 +10,7 @@ namespace SIS.Shared.Dto
         public string DeleteU { get; set; } = String.Empty;
         public string ObjektName { get; set; } = String.Empty;
         public int ObjectId { get; set; }
-        public List<int> ObjectIds { get; set; }
+        public List<int?> ObjectIds { get; set; }
         public int RecordCnt { get; set; }
         public DateTime? MeasuredDate { get; set; }
         public DateTime? DateFrom { get; set; }
