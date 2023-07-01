@@ -8,7 +8,9 @@ namespace SIS.Shared.Dto
     {
         public int FyzChemMegaId { get; set; }
         public int ObjektId { get; set; }
-        public List<int> ObjektIds { get; set; }
+        public List<int?> ObjektIds { get; set; }
+        public DateTime? From { get; set; }
+        public DateTime? To { get; set; }
         public List<DateTime> Dates { get; set; }
         public string DeleteU { get; set; } = String.Empty;
         public FyzChemMegaDto FyzChemMega { get; set; }
