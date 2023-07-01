@@ -21,7 +21,7 @@ namespace SIS.Shared.Dto
         {
             FyzChemMega = new FyzChemMegaDto();
             FyzChemMegaList = new List<FyzChemMegaDto>();
-            ObjektIds = new List<int>();
+            ObjektIds = new List<int?>();
             Dates = new List<DateTime>();
         }
     }
