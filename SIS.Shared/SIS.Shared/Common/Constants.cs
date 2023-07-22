@@ -157,18 +157,13 @@ namespace SIS.Shared.Common
 
 
                 // FyzChemMega
-                public static readonly string FyzChemMegaList = ApiUrl + "fyzChemMega/list/";
-                public static readonly string FyzChemMegaGetItemById = ApiUrl + "fyzChemMega/get/";
-                public static readonly string FyzChemMegaAdd = ApiUrl + "fyzChemMega/add/";
-                public static readonly string FyzChemMegaDelete = ApiUrl + "fyzChemMega/delete/";
-                public static readonly string FyzChemMegaUpdate = ApiUrl + "fyzChemMega/update/";
-                public static readonly string FyzChemMegaGetByObjectId = ApiUrl + "fyzChemMega/getByObjektId/";
-                public static readonly string FyzChemMegaAddList = ApiUrl + "fyzChemMega/addList/";
-                public static readonly string FyzChemMegaGetObjektList = ApiUrl + "fyzChemMega/getObjektList/";
-                public static readonly string FyzChemMegaGetAvailableDates = ApiUrl + "fyzChemMega/getAvailableDates/";
-                public static readonly string FyzChemMegaGetAvailableDatesForAllObjects = ApiUrl + "fyzChemMega/getAvailableDatesForAllObjects/";
-                public static readonly string FyzChemMegaGetDataForCharts = ApiUrl + "fyzChemMega/getDataForCharts/";
-                public static readonly string FyzChemMegaGetByObjektIdsAndDates = ApiUrl + "fyzChemMega/getByObjektIdsAndDates/";
+                public static readonly string FyzChemMegaGetMeasuredObjects = ApiUrl + "fyzChemMega/getMeasuredObjects/";
+                public static readonly string FyzChemMegaGetMeasurementDatesForObject = ApiUrl + "fyzChemMega/getMeasurementDatesForObject/";
+                public static readonly string FyzChemMegaGetMeasurementDatesObjectMapping = ApiUrl + "fyzChemMega/getMeasurementDatesObjectMapping/";
+                public static readonly string FyzChemMegaGetByObjectsAndDates = ApiUrl + "fyzChemMega/getByObjectsAndDates/";
+                public static readonly string FyzChemMegaUpdatePlatnostManualni = ApiUrl + "fyzChemMega/updatePlatnostManualni/";
+                public static readonly string FyzChemMegaGetByObjectsAndDateInterval = ApiUrl + "fyzChemMega/getByObjectsAndDateInterval/";
+                public static readonly string FyzChemMegaCreateMeasurement = ApiUrl + "fyzChemMega/createMeasurement/";
             }
 
         }

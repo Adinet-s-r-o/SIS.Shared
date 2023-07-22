@@ -8,18 +8,15 @@ namespace SIS.Shared.Dto
     public class FyzChemMegaResponse
     {
         public List<FyzChemMegaDto> Data { get; set; }
-        public List<ObjektDto> Objekty { get; set; }
-        public List<DateTime> AvailableDates { get; set; }
-        public Dictionary<int, List<DateTime>> AvailableDatesForAllObjects { get; set; }
-        public int FyzChemMegaId { get; set; }
-        public bool ExistsForObjects { get; set; }
-        public bool DeleteFyzChemMega { get; set; }
+        public List<ObjektDto> Objects { get; set; }
+        public List<DateTime> MeasurementDates { get; set; }
+        public Dictionary<int, List<DateTime>> MeasurementDateObjectMapping { get; set; }
         public FyzChemMegaResponse()
         {
             Data = new List<FyzChemMegaDto>();
-            Objekty = new List<ObjektDto>();
-            AvailableDates = new List<DateTime>();
-            AvailableDatesForAllObjects = new Dictionary<int, List<DateTime>>();
+            Objects = new List<ObjektDto>();
+            MeasurementDates = new List<DateTime>();
+            MeasurementDateObjectMapping = new Dictionary<int, List<DateTime>>();
         }
     }
 }

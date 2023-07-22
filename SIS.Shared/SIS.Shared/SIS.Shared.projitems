@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\MereniMegaDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\FyzChemMegaDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorDto.cs" />
