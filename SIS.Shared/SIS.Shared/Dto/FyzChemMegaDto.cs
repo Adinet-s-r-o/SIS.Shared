@@ -24,7 +24,7 @@ namespace SIS.Shared.Dto
 
         #region NON_MODEL_ATTRIBUTES
         public double? Eh { get => ORP + 220; }
-        public double? Teplota { get => Math.Round((TeplotaPh.Value + TeplotaU.Value + TeplotaCond.Value) / 3, 3); }
+        public double? Teplota { get => Math.Round((TeplotaPh.Value + TeplotaU.Value + TeplotaCond.Value) / 3, 1); }
         #endregion
         public string? NewU { get; set; }
         public DateTime? NewD { get; set; }
