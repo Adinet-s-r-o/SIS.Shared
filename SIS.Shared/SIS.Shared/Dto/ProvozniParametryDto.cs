@@ -14,6 +14,9 @@ namespace SIS.Shared.Dto
         public double? Ph { get; set; }
         public double? Vodivost { get; set; }
         public double? ProvozniCasDavkovacihoCerpadla { get; set; }
+        public double? Benzin { get; set; }
+        public double? Teplota { get; set; }
+        public double? NapetiAku { get; set; }
         public string? Poznamka { get; set; }
         public DateTime? NewD { get; set; }
         public string? NewU { get; set; }
