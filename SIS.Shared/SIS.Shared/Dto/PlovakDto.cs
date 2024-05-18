@@ -11,8 +11,10 @@ namespace SIS.Shared.Dto
         public DateTime? Mereno { get; set; }
         public double? NapetiPanel { get; set; }
         public double? NapetiAku { get; set; }
+        public double? Vodivost { get; set; }
         public string? Poznamka { get; set; }
         public double? TVzduch { get; set; }
+        public double? TVodaH0 { get; set; }
         public double? TVodaH1 { get; set; }
         public double? TVodaH2 { get; set; }
         public double? TVodaH3 { get; set; }
