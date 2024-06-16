@@ -18,6 +18,7 @@ namespace SIS.Shared.Dto
         public double? Teplota { get; set; }
         public double? NapetiAku { get; set; }
         public double? NapetiAku12 { get; set; }
+        public double? DavkaKoagulantu { get; set; }
         public string? Poznamka { get; set; }
         public DateTime? NewD { get; set; }
         public string? NewU { get; set; }
