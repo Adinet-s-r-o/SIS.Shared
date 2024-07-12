@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Net.NetworkInformation;
 using System.Reflection;
 using System.Text;
 
@@ -28,6 +29,16 @@ namespace SIS.Shared.Common
 
             public static class Urls
             {
+                //SIS ADMIN API
+
+                //Localities
+                public static readonly string LocalityGetAll = ApiUrl + "localities/getAll";
+                public static readonly string LocalityGetAllObjectsForLocality = ApiUrl + "localities/getAllObjectForLocality";
+
+
+                //--------------------------------------------------------------------------------//
+                //SIS REST API
+
                 //Objekt
                 public static readonly string ObjektyListSimple = ApiUrl + "objekty/listSimple/";
                 public static readonly string ObjektyGetObjektId = ApiUrl + "objekty/getObjektId/";
