@@ -13,6 +13,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\TokenDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)dto\TokenResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\UserDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\MereniMegaDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\FyzChemMegaDto.cs" />
