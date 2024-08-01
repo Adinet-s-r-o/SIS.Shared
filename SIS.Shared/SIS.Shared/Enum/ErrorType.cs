@@ -11,7 +11,7 @@ namespace SIS.Shared.Enum
         IncorrectVerificationCode,
         InternalServerError,
         SignUpEmailExists,
-        IncorrectEmailOrPassword,
+        IncorrectUserNameOrPassword,
         CannotDeleteRemainingExternalAccount,
         OldPasswordsDoNotMatch,
         ChainbAccountNotFound,

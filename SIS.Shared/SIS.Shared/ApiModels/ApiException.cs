@@ -1,13 +1,14 @@
 ﻿using SIS.Shared.Enum;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 
 namespace SIS.Shared.ApiModels
 {
     public class ApiException : Exception
     {
-        public ApiException(ErrorType errorType, string message, Severity severity, int httpStatus) : base(message)
+        public ApiException(ErrorType errorType, string message, Severity severity, HttpStatusCode httpStatus) : base(message)
         {
             ErrorType = errorType;
             Level = severity;
@@ -34,6 +35,6 @@ namespace SIS.Shared.ApiModels
 
         public ErrorType ErrorType { get; set; }
 
-        public int HttpStatus { get; set; }
+        public HttpStatusCode HttpStatus { get; set; }
     }
 }

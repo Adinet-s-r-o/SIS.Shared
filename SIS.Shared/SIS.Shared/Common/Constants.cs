@@ -30,6 +30,10 @@ namespace SIS.Shared.Common
             public static class Urls
             {
                 //SIS ADMIN API
+                //Auth
+                public static readonly string AuthLogin = ApiUrl + "auth/login";
+                public static readonly string AuthVerifyToken = ApiUrl + "auth/verify-token";
+
 
                 //Localities
                 public static readonly string LocalityGetAll = ApiUrl + "localities/getAll";
