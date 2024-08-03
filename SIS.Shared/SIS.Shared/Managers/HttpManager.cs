@@ -1,4 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Primitives;
+using Newtonsoft.Json;
 using SIS.Shared.ApiModels;
 using System;
 using System.Collections.Generic;
@@ -22,9 +24,15 @@ namespace SIS.Shared.Managers
             httpClient.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
             if (apiKey != null)
                 httpClient.DefaultRequestHeaders.Add("ApiKey", apiKey);
-            else
-                httpClient.DefaultRequestHeaders.Add("ApiKey", "Isonsoft1234");
+            // after adding authorization header cannot use apikey
+            //else
+            //    httpClient.DefaultRequestHeaders.Add("ApiKey", "Isonsoft1234");
 
+        }
+
+        public void SetAuthorization(string token)
+        {
+            httpClient.DefaultRequestHeaders.Add("Authorization", token);
         }
 
         public async Task<ApiResponse<TResponse>> Post<TRequest, TResponse>(string url, TRequest request)

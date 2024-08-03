@@ -31,8 +31,8 @@ namespace SIS.Shared.Common
             {
                 //SIS ADMIN API
                 //Auth
-                public static readonly string AuthLogin = ApiUrl + "auth/login";
-                public static readonly string AuthVerifyToken = ApiUrl + "auth/verify-token";
+                public static readonly string AuthLogin = ServerUrl + "auth/login";
+                public static readonly string AuthVerifyToken = ServerUrl + "auth/verify-token";
 
 
                 //Localities
