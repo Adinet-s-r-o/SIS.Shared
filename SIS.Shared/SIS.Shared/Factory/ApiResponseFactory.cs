@@ -19,7 +19,7 @@ namespace SIS.Shared.Factory
         }
         public static ApiResponse<T> ApiWarningMessage<T>(T payload, ErrorType errorType, string message)
         {
-            return new ApiResponse<T>() { Data = payload, ErrorType = errorType, SuccessMessage = message, Level = Severity.Warning };
+            return new ApiResponse<T>() { Data = payload, ErrorType = errorType, ErrorMessage = message, Level = Severity.Warning };
         }
 
         public static ApiResponse ApiException(ApiException e)
