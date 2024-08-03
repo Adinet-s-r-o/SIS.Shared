@@ -1,6 +1,7 @@
 ﻿using SIS.Shared.Enum;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 
 namespace SIS.Shared.ApiModels
@@ -21,6 +22,7 @@ namespace SIS.Shared.ApiModels
         public string ErrorMessage { get; set; }
         public string SuccessMessage { get; set; }
         public ErrorType ErrorType { get; set; }
+        public HttpStatusCode StatusCode { get; set; }
 
         #endregion
 
