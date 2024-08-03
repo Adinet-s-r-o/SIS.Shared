@@ -12,7 +12,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\ApiException.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Dto\TokenDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\TokenRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)dto\TokenResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\UserDto.cs" />
