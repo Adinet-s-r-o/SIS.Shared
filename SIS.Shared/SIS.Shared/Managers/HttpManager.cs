@@ -40,16 +40,28 @@ namespace SIS.Shared.Managers
         {
             var stringContent = new StringContent(JsonConvert.SerializeObject(request), Encoding.UTF8, "application/json");
             var response = await httpClient.PostAsync(url, stringContent);
-            var jsonString = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<ApiResponse<TResponse>>(jsonString);
+            try
+            {
+                var jsonString = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<ApiResponse<TResponse>>(jsonString);
+            } catch (Exception ex)
+            {
+                throw new Exception(ex.Message + "\n\n HTTP Response: " + response.ToString());
+            }
         }
 
         public async Task<ApiResponse<TResponse>> Get<TResponse>(string url)
         {
             var response = await httpClient.GetAsync(url);
-
-            var jsonString = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<ApiResponse<TResponse>>(jsonString);
+            try
+            {
+                var jsonString = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<ApiResponse<TResponse>>(jsonString);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + "\n\n HTTP Response: " + response.ToString());
+            }
         }
 
         public async Task<ApiResponse<TResponse>> Get<TRequest, TResponse>(string url, TRequest request)
