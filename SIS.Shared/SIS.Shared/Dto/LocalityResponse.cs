@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace SIS.Shared.Dto
 {
     public class LocalityResponse
