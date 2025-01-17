@@ -23,13 +23,14 @@ namespace SIS.Shared.Managers
             if (apiKey != null)
                 httpClient.DefaultRequestHeaders.Add("ApiKey", apiKey);
             // after adding authorization header cannot use apikey
-            //else
-            //    httpClient.DefaultRequestHeaders.Add("ApiKey", "Isonsoft1234");
+            else
+                httpClient.DefaultRequestHeaders.Add("ApiKey", "Isonsoft1234");
 
         }
 
         public void SetAuthorization(string token)
         {
+            httpClient.DefaultRequestHeaders.Remove("ApiKey");
             httpClient.DefaultRequestHeaders.Add("Authorization", token);
         }
 
