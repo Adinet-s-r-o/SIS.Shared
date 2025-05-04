@@ -9,5 +9,6 @@ namespace SIS.Shared.Factory
         string GetServerUrl();
         string GetWebUrl();
         string GetEnvironment();
+        string GetConnectionString(string connectionName);
     }
 }

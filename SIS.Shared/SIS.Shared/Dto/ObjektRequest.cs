@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using SIS.Shared.ApiModels;
 
 namespace SIS.Shared.Dto
 {
-    public class ObjektRequest
+    public class ObjektRequest : BaseApiRequest
     {
         public string ObjektName { get; set; } = String.Empty;
-        public string ConnectionString { get; set; } = String.Empty;
+        public int ObjektId { get; set; }
     }
 }

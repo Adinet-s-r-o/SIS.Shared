@@ -9,6 +9,7 @@ namespace SIS.Shared.Dto
     {
         public int? ObjektId { get; set; }
         public List<SimpleObjektDto> SimpleObjekts { get; set; }
+        public ObjektDto? Objekt { get; set; }
 
         public ObjektResponse()
         {
