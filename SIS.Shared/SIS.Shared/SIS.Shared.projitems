@@ -14,7 +14,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiModels\BaseApiRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\TokenRequest.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)dto\TokenResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\TokenResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\BaseModelDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\UserDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\MereniMegaDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\FyzChemMegaDto.cs" />
@@ -26,6 +27,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Dto\FyzChemMegaResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\CerpaniResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\BioSensorResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\HodnoceniRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\HodnoceniDto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dto\HodnoceniResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)dto\ObjektDto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Dto\ObjektResponse.cs" />

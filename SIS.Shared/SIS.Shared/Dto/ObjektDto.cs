@@ -99,6 +99,7 @@ namespace SIS.Shared.Dto
         public double? PrumerVnitrni8 { get; set; }
         public double? PrumerVnejsi8 { get; set; }
         public string? Material8 { get; set; }
+        public string? PocatekPerforace { get; set; }
         public DateTime? NewD { get; set; }
         public string? NewU { get; set; }
         public DateTime? ModifD { get; set; }

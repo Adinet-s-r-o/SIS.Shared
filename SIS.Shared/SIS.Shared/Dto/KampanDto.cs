@@ -9,6 +9,8 @@ namespace SIS.Shared.Dto
         public int KampanId { get; set; }
         public string Nazev { get; set; } = String.Empty;
         public string Popis { get; set; } = String.Empty;
+        public DateTime? PlatnostOd { get; set; }
+        public DateTime? PlatnostDo { get; set; }
         public DateTime NewD { get; set; }
         public string NewU { get; set; } = String.Empty;
         public DateTime? ModifD { get; set; }
